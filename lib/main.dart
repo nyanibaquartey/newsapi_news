@@ -62,11 +62,11 @@ class _MyAppState extends State<MyApp> {
         ),
         body: ListView(
           children: [
-            const TopNewsContainer(),
+           // const TopNewsContainer(),
             // topNewsContainer(context, article!),
-            const SizedBox(
-              height: 8.0,
-            ),
+            //const SizedBox(
+              //height: 8.0,
+            //),
             ListView.builder(
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
